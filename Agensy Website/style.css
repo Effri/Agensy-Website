@@ -1,0 +1,189 @@
+body,
+html {
+    margin: 0;
+}
+
+.nav-style {
+    padding: 48px 0 69px 0;
+        background-color: #50aea0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-text>a {
+    margin-top: 46px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.img-logo {
+    display: contents;
+}
+
+.bg-primary{
+    
+    background: url("img/block-1/Box.png");
+    display: block;
+max-width: 100%;
+height: auto;
+background-size: cover;
+}
+
+.navtext-style{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+#mainNav .navbar-style-nav > ul > li> a{
+    margin: 25px 0 0 0;
+    color: #ffffff;
+font-size: 22px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+#mastHead .btn-style{
+    margin: 63px 0 63px 0;
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 130px;
+    height: 58px;
+    box-shadow: 0 4px 7px 1px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ffffff;
+    background-color: #50aea0;
+    margin: 0 0 70px 0;
+}
+
+.block-style{
+    /* Style for "Who - VDO" */
+    max-width: 100%;
+    height: auto;
+width: 510px;
+height: 356px;
+box-shadow: 0 4px 56px 1px rgba(0, 0, 0, 0.15);
+border: 1px solid #16c8b9;
+background-color: #ffffff;
+margin: 63px 0 63px 0;
+}
+
+.h1-page-sec-style{
+    /* Style for "WHO WE ARE" */
+width: 328px;
+height: 38px;
+color: #50aea0;
+font-family: "Roboto Slab";
+font-size: 50px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.masthead{
+    background: linear-gradient(to bottom,rgba(43, 82, 76, 0.5),rgba(43, 82, 76, 0.5) 100%),url(img/block-1/Box.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: block;
+    max-width: 100%;
+    margin-top: 107px;
+}
+
+#mastHead .h1-style{
+    margin: 196px 0 0 0;
+    /* width: 570px; */
+    /* height: 33px; */
+    color: #00ffff;
+    /* font-family: "Roboto Slab"; */
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.info-p-mast-style{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 29px 30% 44px 30%;
+}
+
+@media (max-width: 543px) {
+
+    .img-logo {
+        display: none;
+    }
+
+    .nav-text>a {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 544px) and (max-width: 767px) {
+ 
+    .img-logo {
+        width: 15%;
+        height: 15%;
+        margin: 2px 23% 0 2%;
+    }
+
+    .nav-text>a {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .img-logo {
+        display: block;
+        height: fit-content;
+        margin: 46px 9% 0 10%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .img-logo {
+        display: block;
+        height: fit-content;
+        margin: 46px 35% 0 10%;
+    }
+
+    .nav-text>a {
+        padding-top: 20px;
+        margin-bottom: -20px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    
+.bg-style{
+    background: url("img/background/Box_-_Hero_Graphic_copy.png");
+    display: block;
+max-width: 100%;
+height: auto;
+background-size: cover;
+}
+
+    .img-logo {
+        display: block;
+        height: fit-content;
+        margin: 46px 35% 0 10%;
+    }
+
+    .nav-text>a {
+        padding-top: 20px;
+        margin-bottom: -20px;
+    }
+}
